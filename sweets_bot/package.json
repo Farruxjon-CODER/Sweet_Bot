@@ -4,7 +4,8 @@
   "description": "Sweet Shop Telegram Bot (cakes & desserts)",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "Farruxjon",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "dotenv": "^16.3.1",
     "mongoose": "^8.3.1",
     "node-telegram-bot-api": "^0.61.0"
+  },
+   "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
